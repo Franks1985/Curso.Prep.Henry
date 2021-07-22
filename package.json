@@ -7,7 +7,9 @@
     "test": "jest --collectCoverage=false --testResultsProcessor ./.reporter/index.js --detectOpenHandles"
   },
   "devDependencies": {
-    "eslint": "^7.29.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
     "jest": "^27.0.5"
   },
   "author": "Henry",
@@ -20,5 +22,14 @@
     "git-remote-origin-url": "^3.1.0",
     "git-url-parse": "^11.4.4",
     "simple-git": "^2.40.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franks1985/Curso.Prep.Henry.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Franks1985/Curso.Prep.Henry/issues"
+  },
+  "homepage": "https://github.com/Franks1985/Curso.Prep.Henry#readme"
 }
